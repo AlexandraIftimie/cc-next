@@ -133,7 +133,8 @@ export default function MainPage() {
 			console.log(error);
 		}
 	}*/
-/*
+
+	/*
 	return (
 		<section className="bg-white dark:bg-gray-900">
 			<div className="container px-6 py-10 mx-auto">
@@ -192,6 +193,9 @@ import {useEffect, useState} from "react";
 
 export default function MainPage() {
 	const [records, setRecords] = useState([]);
+    
+   
+
 
 	useEffect(() => {
 		try{
@@ -228,6 +232,24 @@ export default function MainPage() {
 			<div className="container px-6 py-10 mx-auto">
 				<h1 className="w-[500px] mx-auto text-center text-6xl">My library app</h1>
 				<p className="w-[1000px] mx-auto text-center mt-4 text-3xl">Biblioteca ta personală în buzunarul tău. O aplicație care te ajută să îți organizezi lecturile. În caz că vrei să te lauzi cu biblioteca ta și să impresionezi! &#x1F60A;</p>
+               
+                <div className="flex justify-center mt-4">
+  <button 
+    type="button"
+    onClick={() => window.open('http://localhost:3000/insert', '_blank')} 
+    className="focus:outline-none text-white bg-blue-700 bg-orange-400 hover:bg-gradient-to-b from-blue-400 to-orange-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
+  >
+    Ai cumpărat o nouă carte? Click aici să o adaugi!
+  </button>
+</div>
+
+
+
+
+
+
+
+
 
 				<div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3">
 					{records.map(record => (
