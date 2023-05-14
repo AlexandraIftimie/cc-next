@@ -56,7 +56,7 @@ export default function InsertPage() {
 					<div className="flex justify-center mt-4">
   <button 
     type="button"
-    onClick={() => window.open ('https://cc-next-byl91xfnl-alexandraiftimie.vercel.app', '_blank')} 
+    onClick={() => window.open ('https://cc-next-nine.vercel.app', '_blank')} 
     className="focus:outline-none text-white bg-blue-700 bg-blue-700 bg-gradient-to-b from-orange-400 hover:bg-gradient-to-b from-blue-400 to-orange-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
   >
     Înapoi la colecție
