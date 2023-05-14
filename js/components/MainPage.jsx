@@ -236,7 +236,7 @@ export default function MainPage() {
                 <div className="flex justify-center mt-4">
   <button 
     type="button"
-    onClick={() => window.open('https://cc-next-alexandraiftimie.vercel.app/insert', '_blank')} 
+    onClick={() => window.open('https://cc-next-nine.vercel.app/insert', '_blank')} 
     className="focus:outline-none text-white bg-blue-700 bg-orange-400 hover:bg-gradient-to-b from-blue-400 to-orange-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
   >
     Ai cumpărat o nouă carte? Click aici să o adaugi!
